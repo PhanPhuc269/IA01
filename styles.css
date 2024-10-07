@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 30px; 
+    height: auto; 
+    border: none; 
+}
+.description{
+    line-height:36.29px;
+    opacity: 0.6;
+}
+.btn{
+    border-radius: 50px;
+    font-weight: 600;
+    height: 50px;
+    border: 5px solid rgb(239 242 243);
+}
+.btn-purchase{
+    background: linear-gradient(to bottom, #f90, rgb(212, 117, 0));
+    opacity: 0.8;
+}
+.btn-purchase:hover{
+    opacity: 1;
+}
+.btn-tour {
+    background: linear-gradient(to bottom, rgb(240,240,240), rgb(163, 163, 163));
+    opacity: 0.8;
+}
+
+.btn-tour:hover {
+    background-color: #e1e1e1;
+}
+
+.symbol {
+    font-size: 3rem;
+    opacity: 0.4;
+}
+.image-shawdow{
+    position: relative;
+}
+.image-shawdow::after{
+    content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -20px; /* Vị trí bóng mờ dưới ảnh */
+      height: 14px; /* Chiều cao bóng mờ */
+      background: linear-gradient(to bottom, rgb(255 255 255), rgb(187, 187, 187));
+      border-radius: 50%; /* Làm mờ góc */
+      filter: blur(9px);
+}
+.styled-list {
+    list-style: none;
+    padding-left: 0;
+}
+.styled-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #f08051;
+}
+.styled-list li i {
+    margin-right: 10px;
+    color: #f08051; /* màu cam nhạt */
+}
+.styled-list li a {
+    text-decoration: none;
+    color: #f08051;
+}
+.styled-list li a:hover {
+    text-decoration: underline;
+}
+.call-now a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.message-box {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+.message-box::after {
+    content: '';
+    position: absolute;
+    bottom: -20px; /* Vị trí tam giác */
+    left: 20px;   /* Lật tam giác sang bên phải */
+    width: 0;
+    height: 0px;
+    border-top: 20px solid white; /* Tam giác vuông ngược */
+    border-left: 20px solid transparent; /* Lật sang phải */
+  }
+
+  /* Viền cho tam giác vuông ngược */
+  .message-box::before {
+    content: '';
+    position: absolute;
+    bottom: -22px; /* Vị trí viền */
+    left: 18px;   /* Vị trí viền */
+    width: 0;
+    height: 0;
+    border-top: 23px solid #ddd; /* Viền của tam giác */
+    border-left: 23px solid transparent; /* Lật sang phải */
+  }
+.blockquote-footer
+{
+    margin-left: 50px;
+}
+footer {
+    font-size: 0.9rem;
+    background-color: #313131;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0!important;
+}
+.logo-footer{
+    width: 50px;
+    opacity: 0.3;
+}
+.brand-footer{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.brand-image{
+    width: 50px; /* Đặt chiều rộng cho hình ảnh */
+    height: auto; /* Đặt chiều cao tự động để giữ tỷ lệ */
+}
+footer p{
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+footer h2{
+    opacity: 0.5;
+}
+.copy-right {
+    background-color: #222222;
+}
+.social-icons {
+    position: relative;
+}
+.social-icons a {
+    color: #888;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #444;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    float: right;
+}
+.social-icons a:hover {
+    color: #fff;
+    background-color: #555;
+}
+
