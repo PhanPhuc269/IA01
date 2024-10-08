@@ -32,6 +32,13 @@
 }
 
 @media (max-width: 576px) {
+    .target-logo{
+        flex-direction: column;
+        transform: translateX(-15px);
+    }
+    .target-logo h1{
+        font-size: 40px;
+    }
     .m-5 {
         margin: 0rem !important;
     }
