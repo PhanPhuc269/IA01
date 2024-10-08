@@ -53,6 +53,9 @@
       border-radius: 50%; /* Làm mờ góc */
       filter: blur(9px);
 }
+.col-md-3 .image-shawdow{
+    display: inline-block;
+}
 .styled-list {
     list-style: none;
     padding-left: 0;

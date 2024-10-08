@@ -7,7 +7,7 @@
         flex-direction: column;
     }
     .col-md-3 .image-shawdow{
-        display: inline-block;
+        margin-bottom: 20px;
     }
     .image-shawdow::after {
         bottom: -10px;
@@ -42,11 +42,6 @@
         margin: 10px 0; /* Thêm khoảng cách giữa các biểu tượng theo chiều dọc */
         float: none;
     }
-
-    .image-shadow {
-        display: inline-block !important;
-    }
-
     .brand-image {
         width: 25px; /* Giảm kích thước hình ảnh thương hiệu hơn nữa */
         height: auto;
