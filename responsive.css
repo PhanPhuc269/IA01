@@ -33,7 +33,7 @@
 
 @media (max-width: 576px) {
     .m-5 {
-        margin: 1rem !important;
+        margin: 0rem !important;
     }
     .social-icons {
         display: flex;
