@@ -93,19 +93,19 @@
 .message-box::after {
     content: '';
     position: absolute;
-    bottom: -20px; /* Vị trí tam giác */
-    left: 20px;   /* Lật tam giác sang bên phải */
-    width: 0;
-    height: 0px;
-    border-top: 20px solid white; /* Tam giác vuông ngược */
-    border-left: 20px solid transparent; /* Lật sang phải */
+    bottom: -21px; /* Vị trí tam giác */
+    left: 19px;   /* Lật tam giác sang bên phải */
+    width: 21px;
+    height: 25px;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 14%);
   }
 
   /* Viền cho tam giác vuông ngược */
   .message-box::before {
     content: '';
     position: absolute;
-    bottom: -22px; /* Vị trí viền */
+    bottom: -23px; /* Vị trí viền */
     left: 18px;   /* Vị trí viền */
     width: 0;
     height: 0;
