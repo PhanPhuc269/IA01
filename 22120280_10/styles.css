@@ -93,24 +93,24 @@
 .message-box::after {
     content: '';
     position: absolute;
-    bottom: -21px; 
-    left: 19px;   
+    bottom: -21px; /* Vị trí tam giác */
+    left: 19px;   /* Lật tam giác sang bên phải */
     width: 21px;
     height: 25px;
     background-color: white;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 14%);
   }
 
-  
+  /* Viền cho tam giác vuông ngược */
   .message-box::before {
     content: '';
     position: absolute;
-    bottom: -23px; 
-    left: 18px;   
+    bottom: -23px; /* Vị trí viền */
+    left: 18px;   /* Vị trí viền */
     width: 0;
     height: 0;
-    border-top: 23px solid #ddd; 
-    border-left: 23px solid transparent; 
+    border-top: 23px solid #ddd; /* Viền của tam giác */
+    border-left: 23px solid transparent; /* Lật sang phải */
   }
 .blockquote-footer
 {
@@ -120,6 +120,8 @@ footer {
     font-size: 0.9rem;
     background-color: #313131;
     box-sizing: border-box;
+    width: 100%;
+    margin-left: 0!important;
 }
 .logo-footer{
     width: 50px;
@@ -132,8 +134,8 @@ footer {
     opacity: 0.5;
 }
 .brand-image{
-    width: 50px; 
-    height: auto; 
+    width: 50px; /* Đặt chiều rộng cho hình ảnh */
+    height: auto; /* Đặt chiều cao tự động để giữ tỷ lệ */
 }
 footer p{
     color: #fff;
@@ -149,16 +151,6 @@ footer h2{
 .social-icons {
     position: relative;
 }
-.connect {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.social-icons{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 .social-icons a {
     color: #888;
     font-size: 12px;
@@ -172,6 +164,7 @@ footer h2{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    float: right;
 }
 .social-icons a:hover {
     color: #fff;

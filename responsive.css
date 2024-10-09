@@ -21,10 +21,22 @@
         margin-top: 30px;
     }
     button {
-        width: 100%; /* Đảm bảo nút bấm chiếm toàn bộ chiều rộng của container */
-        padding: 15px; /* Tăng kích thước padding để dễ bấm hơn */
-        font-size: 18px; /* Tăng kích thước font chữ */
-        margin: 10px 0; /* Thêm khoảng cách giữa các nút bấm */
+        width: 100%; 
+        padding: 15px; 
+        font-size: 18px; 
+        margin: 10px 0; 
+    }
+    .connect {
+        text-align: center;
+        justify-content: center;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+
+    .social-icons a {
+        margin: 10px 0; 
+        float: none;
     }
 }
 
@@ -39,25 +51,27 @@
     .m-5 {
         margin: 0rem !important;
     }
-    .social-icons {
-        display: flex;
+    .connect {
         text-align: center;
+        justify-content: center;
+    }
+    .social-icons {
         justify-content: center;
     }
 
     .social-icons a {
-        margin: 10px 0; /* Thêm khoảng cách giữa các biểu tượng theo chiều dọc */
+        margin: 10px 0; 
         float: none;
     }
     .brand-image {
-        width: 25px; /* Giảm kích thước hình ảnh thương hiệu hơn nữa */
+        width: 25px; 
         height: auto;
     }
 
     button {
-        width: 100%; /* Đảm bảo nút bấm chiếm toàn bộ chiều rộng của container */
-        padding: 15px; /* Tăng kích thước padding để dễ bấm hơn */
-        font-size: 18px; /* Tăng kích thước font chữ */
-        margin: 10px 0; /* Thêm khoảng cách giữa các nút bấm */
+        width: 100%; 
+        padding: 15px; 
+        font-size: 18px;
+        margin: 10px 0; 
     }
 }
